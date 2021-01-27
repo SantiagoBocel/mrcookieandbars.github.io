@@ -102,8 +102,6 @@ h2::after {
   right: -140px;
 }
 
-h4 {}
-
 small {
   color: black;
   font-size: 25px;
@@ -196,9 +194,8 @@ a.Hyperlink:hover {
 /*Formulario*/
 
 .formulario {
-  width: 1050px;
-  height: 530px;
-  margin: 50px auto;
+  width: 1000px;
+  margin: 40px auto;
   display: flex;
   background-color: #764029;
   border-radius: 20px;
