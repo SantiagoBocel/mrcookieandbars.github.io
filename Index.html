@@ -20,17 +20,17 @@
 		</section>
 		<!-- linea margen abajo -->
 		<hr color="#764029" width="70%" size=9 />
-		<hr color="#764029" width="50%"  />
+		<hr color="#764029" width="50%" />
 		<!-- Barra de navegacion -->
 		<nav class="navegacion">
 			<ul class="menu">
 				<!-- <li><a href="#">Temporada</a></li> -->
 				<li><a href="#Cupcakes">Cupcakes &dtrif;</a>
-				 <ul class="submenu">
-					<li><a href="#Cupcakes">Vainilla</a></li>
-					<li><a href="#Cupcakes">Fresa</a></li>
-					<li><a href="#Cupcakes">Chocolate</a></li>
-				 </ul>
+					<ul class="submenu">
+						<li><a href="#Cupcakes">Vainilla</a></li>
+						<li><a href="#Cupcakes">Fresa</a></li>
+						<li><a href="#Cupcakes">Chocolate</a></li>
+					</ul>
 				</li>
 				<li><a href="#Galletas">Galletas</a></li>
 				<li><a href="#pasteles">Pasteles &dtrif;</a>
@@ -38,7 +38,7 @@
 						<li><a href="#pasteles">Grande</a></li>
 						<li><a href="#pasteles">Mediano</a></li>
 						<li><a href="#pasteles">Peque&ntilde;o</a></li>
-					 </ul>
+					</ul>
 				</li>
 				<li style="float:right" class="ultimo"><a class="active" href="#Pedidos">Realizar Pedidos</a></li>
 			</ul>
@@ -223,27 +223,31 @@
 		<!--Pedidos-->
 		<a name="Pedidos" />
 		<h2>Realizar Pedidos</h2>
-		<form class="pedidos">
-			<input type="text" placeholder="Ingresar Nombre" name="Nombre">
-			<input type="text" placeholder="Ingresar Correo" name="Correo">
-			<input type="text" placeholder="Tel&eacute;fono" name="Telefono">
-			<input type="text" placeholder="Ingresar Direcci&oacute;n" name="Direccion">
-			<textarea placeholder="Descripci&oacute;n de orden" name="msg"></textarea>
-
-		</form>
-
+		<!--contactos-->
+		<div class="formulario">
+			<div class="contacto">
+				<div class="contacto_info">
+					<h3>INFORMACI&Oacute;N<br>DE CONTACTO </h3>
+				</div>
+				<div class="contacto_item">
+					<h3><img src="https://www.flaticon.es/svg/static/icons/svg/733/733585.svg" /> (+502) 40457949 					</h3>
+					<h3><img src="https://www.flaticon.es/svg/static/icons/svg/174/174855.svg" /> <a class="Hyperlink"
+							href="https://www.instagram.com/mr.cookienbars/" target="_blank"> mr.cookienbars</a></h3>
+				</div>
+			</div>
+			<!--llenar formulario-->
+			<from class="form_contact">
+				<h3>LLENAR FORMULARIO</h3>
+				<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente ad sed, repellat a corporis aperiam modi vitae distinctio temporibus totam, natus vel repellendus tempora! Vero harum aperiam facilis laboriosam.</p>
+				<input type="button" value="Enviar Mensaje" id="btnSend"> -->
+			</from>
+		</div>
 		<!-- pie de pagina -->
 		<footer>
 			<p align=center> <small>
-					<img src="https://www.flaticon.es/svg/static/icons/svg/733/733585.svg" height="15px" width="15px" />
-					40457949 <img src="https://www.flaticon.es/svg/static/icons/svg/174/174855.svg" height="15px"
-						width="15px" /> <a class="Hyperlink" href="https://www.instagram.com/mr.cookienbars/"
-						target="_blank"> mr.cookienbars</a>
-					<br><img src="Imagenes/Logo/Logo.png" height="15px"
-					width="15px"/> Mr. Cookie & Bars </br>
+					<br><img src="Imagenes/Logo/Logo.png" /> Mr. Cookie & Bars </br>
 			</p></small>
 		</footer>
-
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script src="js/Main.js"></script>
